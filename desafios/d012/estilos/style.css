@@ -53,14 +53,17 @@ section#imagem01 {
     background-position: right center;
     background-size: cover;
     background-attachment: fixed;
+    box-shadow: inset 1px 1px 10px 5px black;
 }
 section#imagem01 > p {
     display: inline-block;
     padding: 1px;
-    background-color: rgba(0, 0, 0, 0.541);
+    background-color: rgba(0, 0, 0, 0.164);
     color: white;
+    text-shadow: 1px 1px 0px black;
 }
 section#imagem02{
+    box-shadow: inset 1px 1px 10px 5px black;
     color: white;
     background-image: url(../imagens/background002.jpg);
     background-repeat: no-repeat;
@@ -68,6 +71,13 @@ section#imagem02{
     background-size: cover;
     background-attachment: fixed;
 
+}
+section#imagem02 > p {
+    display: inline-block;
+    padding: 1px;
+    background-color: rgba(0, 0, 0, 0.164);
+    color: white;
+    text-shadow: 1px 1px 0px black;
 }
 a {
     color: white;
